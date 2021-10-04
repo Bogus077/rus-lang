@@ -1,10 +1,11 @@
 import React from 'react';
-import StartScreen from './features/StartScreen/StartScreen';
+import MainScreen from './features/StartScreen/MainScreen';
 import './App.css';
+import { ReactElement } from 'hoist-non-react-statics/node_modules/@types/react';
 
-function App() {
+function App(): ReactElement {
   return (
-    <StartScreen/>
+    <MainScreen/>
   );
 }
 
